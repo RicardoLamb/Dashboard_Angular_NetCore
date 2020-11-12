@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "../dashboardAngular/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../dashboardAngular/node_modules/jquery/dist/jquery.min.js",
+              "../dashboardAngular/node_modules/popper.js/dist/umd/popper.min.js",
+              "../dashboardAngular/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../dashboardAngular/node_modules/chart.js/dist/chart.min.js"
+            ]
           },
           "configurations": {
             "production": {
