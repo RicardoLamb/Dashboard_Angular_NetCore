@@ -13,20 +13,20 @@ export class SectionsOrdersComponent implements OnInit {
 
   orders: Order[] = [
     {id: 1, customer:
-      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'}, 
+      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'},
       total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},
     {id: 2, customer:
-      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'}, 
+      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'},
       total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},
     {id: 3, customer:
-      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'}, 
+      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'},
       total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},
     {id: 4, customer:
-      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'}, 
+      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'},
       total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},
     {id: 5, customer:
-      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'}, 
-      total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},                              
+      {id: 1, name: 'Main St Bakery', state: 'CO', email: 'mainst@example.com'},
+      total: 230, placed: new Date(2020, 11, 13), fulfilled: new Date(2020, 11, 13)},
   ];
 
   ngOnInit(): void {
