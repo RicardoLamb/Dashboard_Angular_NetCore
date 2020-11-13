@@ -1,1 +1,8 @@
-<p>sections-health works!</p>
+<div class="section-container">
+    <h2>System Helth</h2>
+    <div class="card-deck servers">
+        <div *ngFor="let server of servers">
+            <app-server [serverInput]="server"></app-server>
+        </div>
+    </div>
+</div>
